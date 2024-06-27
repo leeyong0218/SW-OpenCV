@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DreamQ- 식당혼잡도</title>
+    <link rel="stylesheet" href="personcheck.css">
+</head>
+<body>
+    <h1>DreamQ- 식당혼잡도</h1>
+    <div id="container">
+        <p id="count"></p>
+        <div id="status"></div>
+        <canvas id="canvas" width="640" height="480"></canvas>
+    </div>
+
+    <div class="image-container">
+        <img src="상명대학교 로고.png" alt="">
+        <p>DreamQ-</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.12.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
+    <script src="personcheck.js"></script>
+</body>
+</html>
